@@ -11,7 +11,7 @@ $(document).ready(function(){
 	
 	
 $('.photoset-grid').photosetGrid({
-    layout: '33',
+    layout: '34',
     width: '100%',
     gutter: '0px',
     highresLinks: true,
@@ -82,8 +82,9 @@ $('.photoset-grid4').photosetGrid({
     }
 });
 
-
-//lightbox
- $('#imageBoxes').pinbox().hide(0).fadeIn(1000);
+$(function(){
+	$(".special").waterfall();
+})
+	
 
 });

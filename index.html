@@ -12,39 +12,67 @@
     
   </head>
   <body>
-   <div class="nav">
-  		<ul>
-       		<li> Team</li>
-            <li> Bloggers</li> 
-       
-        
-        </ul>
+  <nav class="navbar navbar-inverse" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Fascinating Pics</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Bloggers</a></li>
+            <li><a href="#">Team</a></li>
+            <li><form class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
   
   </div>
-  <h1> Fascinating Pics</h1>
+
   
  
-  <div class="photoset-grid" data-layout="33">
+  <div class="photoset-grid" data-layout="34">
             <div class="gallery1">
             <a href="images/18.jpg"  rel="shadowbox[main]" title="Well-timed Animal Pictures" >  <img src="images/18.jpg"/></a>
-           <a  href="images/19.jpg" rel="shadowbox[main]"><img src="images/19.jpg"/></a>
-           <a  href="images/110.jpg" rel="shadowbox[main]"> <img src="images/110.jpg"/></a>
-           <a  href="images/116.jpg" rel="shadowbox[main]"> <img src="images/116.jpg"/></a>
-           <a href="images/228.jpg" rel="shadowbox[main]"> <img src="images/228.jpg"/></a>
-           <a href="images/114.jpg" rel="shadowbox[main]"> <img src="images/1114.jpg"/></a>
+           <a  href="images/19.jpg" rel="shadowbox[main]" title="The most shocking, controversial and offensive print ads"><img src="images/19.jpg"/></a>
+           <a  href="images/110.jpg" rel="shadowbox[main]" title="Stunning Aerial pictures"> <img src="images/110.jpg"/></a>
+           <a  href="images/116.jpg" rel="shadowbox[main]" title="Dogs Dressed Like Their Owners"> <img src="images/116.jpg"/></a>
+            <a href="images/228.jpg" rel="shadowbox[main]" title="Hyper-Realistic 3D Paintings of Sea Animals"> <img src="images/228.jpg"/></a>
+           <a href="images/114.jpg" rel="shadowbox[main]" title="Creative street art"> <img src="images/1114.jpg"/></a>
+            <a href="images/17.jpg" rel="shadowbox[main]" title="Places As Mysterious As The Bermuda Triangle"> <img src="images/17.jpg"/></a>
+            
+            
+           
            </div>
                   </div><!--end of photo grid-->
   		
         <div class="container">
        
 
-     
-     <div style="position:relative" id="imageBoxes">
-            <div class="span2 pcon  prodcont actioninside new" >
+
+  <div class="waterfall" data-col-min-width="400"
+	data-default-container-width="800"
+	data-autoresize="true">
+
+            <div>
 
                <h2>Surreal Photo Manipulation<h2>
 
-           <a href="images/SPM/1113.jpg" rel="shadowbox[SPM]">  <img src="images/SPM/1113.jpg" height="300"/></a>
+           <a href="images/SPM/1113.jpg" rel="shadowbox[SPM]">  <img src="images/SPM/1113.jpg" height="300" class="img-responsive" alt="Responsive image"/></a>
            <a  href="images/SPM/2224.jpg" rel="shadowbox[SPM]">
            <a  href="images/SPM/3335.jpg" rel="shadowbox[SPM]"> 
            <a  href="images/SPM/4443.jpg" rel="shadowbox[SPM]"> 
@@ -56,11 +84,11 @@
             </div>
 
 
-            <div class="span2 pcon prodcont actioninside new" >
+            <div>
 
                 <h2>Well Dressed Animals</h2>
 
-  		   <a href="images/WDA/114.jpg" rel="shadowbox[WDA]">  <img src="images/WDA/114.jpg" height="290"/></a>
+  		   <a href="images/WDA/114.jpg" rel="shadowbox[WDA]">  <img src="images/WDA/114.jpg" height="290" class="img-responsive" alt="Responsive image"/></a>
            <a  href="images/WDA/227.jpg" rel="shadowbox[WDA]">
            <a  href="images/WDA/336.jpg" rel="shadowbox[WDA]"> 
            <a  href="images/WDA/445.jpg" rel="shadowbox[WDA]"> 
@@ -71,12 +99,12 @@
 
             </div>
 
-            <div class="span2 pcon higher prodcont actioninside new" >
+            <div>
 
                <h2>Sinkholes</h2>
  
             <a href="images/sinkholes/113.jpg" rel="shadowbox[sinkholes]"> 
-           <a  href="images/sinkholes/443.jpg" rel="shadowbox[sinkholes]"> <img src="images/sinkholes/443.jpg"  height="170" /></a>
+           <a  href="images/sinkholes/443.jpg" rel="shadowbox[sinkholes]"> <img src="images/sinkholes/443.jpg"  height="170" class="img-responsive" alt="Responsive image" /></a>
            <a  href="images/sinkholes/226.jpg" rel="shadowbox[sinkholes]"> 
            <a  href="images/sinkholes/335.jpg" rel="shadowbox[sinkholes]">
          
@@ -86,10 +114,10 @@
 
             </div>
 
-              <div class="span2 pcon higher prodcont actioninside new" >
+              <div>
 				<h2>Dogs Dressed Like their Owners</h2>
                 
-            <a href="images/dogOwners/27.jpg"  rel="shadowbox[DO]" title="Dogs dressed Up Like Owners" >  <img src="images/dogOwners/27.jpg" height="200"/></a>
+            <a href="images/dogOwners/27.jpg"  rel="shadowbox[DO]" title="Dogs dressed Up Like Owners" >  <img src="images/dogOwners/27.jpg" height="200" class="img-responsive" alt="Responsive image"/></a>
            <a  href="images/dogOwners/38.jpg" rel="shadowbox[DO]">
            <a  href="images/dogOwners/47.jpg" rel="shadowbox[DO]"> 
            <a  href="images/dogOwners/58.jpg" rel="shadowbox[DO]"> 
@@ -100,12 +128,12 @@
             </div>
 
 
-            <div class="span2 pcon prodcont actioninside new" >
+            <div>
 
                 <h2>Countries That Disappeared In The 20th Century</h2>
   
             <a href="images/sinkholes/113.jpg" rel="shadowbox[sinkholes]"> 
-           <a  href="images/sinkholes/443.jpg" rel="shadowbox[sinkholes]"> <img src="images/16.jpg" height="240"/></a>
+           <a  href="images/sinkholes/443.jpg" rel="shadowbox[sinkholes]"> <img src="images/16.jpg" height="240" class="img-responsive" alt="Responsive image"/></a>
            <a  href="images/sinkholes/226.jpg" rel="shadowbox[sinkholes]"> 
            <a  href="images/sinkholes/335.jpg" rel="shadowbox[sinkholes]">
          
@@ -117,12 +145,12 @@
             </div>
 
 
-            <div class="span2 pcon prodcont actioninside new" >
+            <div>
 
                  <h2>Places As Mysterious As The Bermuda Triangle</h2>
 
             <a href="images/sinkholes/113.jpg" rel="shadowbox[sinkholes]"> 
-           <a  href="images/sinkholes/443.jpg" rel="shadowbox[sinkholes]"> <img src="images/17.jpg" height="220"/></a>
+           <a  href="images/sinkholes/443.jpg" rel="shadowbox[sinkholes]"> <img src="images/17.jpg" height="220" class="img-responsive" alt="Responsive image"/></a>
            <a  href="images/sinkholes/226.jpg" rel="shadowbox[sinkholes]"> 
            <a  href="images/sinkholes/335.jpg" rel="shadowbox[sinkholes]">
          
@@ -134,16 +162,16 @@
             </div>
 
 
-            <div class="span2 pcon prodcont actioninside new" >
+            <div  >
 				<h2>The most shocking, controversial and offensive print ads</h2>
-              <a  href="images/19.jpg" rel="shadowbox[main]"><img src="images/19.jpg" height="210"/></a>
+              <a  href="images/19.jpg" rel="shadowbox[main]"><img src="images/19.jpg" height="210" class="img-responsive" alt="Responsive image"/></a>
 
             </div>
 
 
-            <div class="span2 pcon higher prodcont actioninside new" >
+            <div>
 				<h2>Hyper-Realistic 3D Paintings of Sea Animals</h2>
-                 <a href="images/228.jpg" rel="shadowbox[main]"> <img src="images/228.jpg" height="300"/></a>
+                 <a href="images/228.jpg" rel="shadowbox[main]"> <img src="images/228.jpg" height="300" class="img-responsive" alt="Responsive image"/></a>
 
             </div>
 </div>
@@ -162,7 +190,7 @@
     <script src="js/bootstrap.min.js"></script>
 
      <script src="js/jquery.photoset-grid.js"></script>
-     <script src="js/jquery.pinbox.js"></script>
+     <script src="js/jquery.waterfall.js"></script>
   
    <script type="text/javascript" src="js/shadowbox.js"></script> 
    <script type="text/javascript">
